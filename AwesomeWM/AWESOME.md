@@ -1,4 +1,4 @@
-### AwesomeWM utils v0.1
+### AwesomeWM utils v0.5
 - [AwesomeWM ricing tutorial (outdated)](https://youtu.be/JONiwmvi3q0)
 - Make windows' corners rounded:  
 ```lua
@@ -11,4 +11,8 @@ client.connect_signal("manage"), function (c)
 awful.spawn.with_shell("/home/kode/.config/polybar/launch.sh")
 ```
 - [AwesomeWM x polybar implementation tutorial(8:12 for rc.lua config)](https://youtu.be/ibRa4A4pIws)
+- Add dmenu shortcut to rc.lua:
+```lua
+awful.key({ modkey },            "r",     function () awful.util.spawn_with_shell("dmenu_run") end))
+```
 
