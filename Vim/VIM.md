@@ -5,4 +5,5 @@
 - [Vim commands (DT)](https://youtu.be/ER5JYFKkYDg)
 - [SpaceVim](https://spacevim.org/)
 - [SpaceVim colorschemes](https://spacevim.org/layers/colorscheme/)
+- [SpaceVim DT video](https://youtu.be/iXPS_NHLj9k)
 
